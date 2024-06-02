@@ -1,29 +1,21 @@
-import React from 'react'
-import './whatapp.css'
+import React from "react"
+import "./whatapp.css"
 
 const Whatapp = () => {
   return (
     <div className='container'>
-
-        <div className='whatappicon'>
-            <img src='whatapplogo.png'></img>
-            
+      <div className='whatappicon'>
+        <img src='whatapplogo.png'></img>
+      </div>
+      <div className='whatapptext'>
+        <h1>Umesh Surange</h1>
+        <p>Whatsapp</p>
+        <div className='screens'>
+          <p>21 screens</p>
         </div>
-        <div className='whatapptext'>
-            <p>Whatsapp</p>
-            <div className='screens'> 
-               <p>21 screens</p>
-            </div>
-
-        </div>
-        <div>
-
-
-
-
-        </div>
-        <div></div>
-     
+      </div>
+      <div></div>
+      <div></div>
     </div>
   )
 }
