@@ -1,13 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import Whatapp from './Whatapp/Whatapp';
+import React, { useState } from "react";
+import Child from "./Child";
 
-function App() {
+const App = () => {
+  const [name, setName] = useState("");
+  const [color, setColor] = useState("");
+
+  const getData = (data) => {
+    setName(data);
+  };
   return (
-    <div className="App">
-     <Whatapp></Whatapp>
-    </div>
+    <>
+      <Child info={getData} />
+      <h1>{name}</h1>
+      <div
+        style={{
+          width: "300px",
+          height: "300px",
+          border: "2px solid black",
+          backgroundColor: `${name}`,
+        }}
+      >
+        text
+      </div>
+    </>
   );
-}
-
+};
 export default App;
