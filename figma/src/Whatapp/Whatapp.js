@@ -11,6 +11,7 @@ const Whatapp = () => {
         <h1>Vaibhav Nirmal</h1>
         <h2>123</h2>
         <h1>4567</h1>
+        <h1>pranita</h1>
         <p>Whatsapp</p>
         <div className='screens'>
           <p>21 screens</p>
