@@ -8,7 +8,8 @@ const Whatapp = () => {
         <img src='whatapplogo.png'></img>
       </div>
       <div className='whatapptext'>
-        <h1>Umesh Surange</h1>
+        <h1>Vaibhav Nirmal</h1>
+        <h2>123</h2>
         <p>Whatsapp</p>
         <div className='screens'>
           <p>21 screens</p>
