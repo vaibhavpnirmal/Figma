@@ -4,6 +4,7 @@ import "./whatapp.css"
 const Whatapp = () => {
   return (
     <div className='container'>
+      <div>Header this is velocity</div>
       <div className='whatappicon'>
         <img src='whatapplogo.png'></img>
       </div>
