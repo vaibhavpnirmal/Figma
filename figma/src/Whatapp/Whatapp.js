@@ -17,6 +17,7 @@ const Whatapp = () => {
       </div>
       <div></div>
       <div></div>
+      <div>This is footer</div>
     </div>
   )
 }
