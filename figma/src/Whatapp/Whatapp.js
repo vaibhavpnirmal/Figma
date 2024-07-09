@@ -15,7 +15,7 @@ const Whatapp = () => {
         <h2>123</h2>
         <p>Whatsapp</p>
         <div className='screens'>
-          <p>21 screens</p>
+          <p>22 screens</p>
         </div>
       </div>
       <div></div>
